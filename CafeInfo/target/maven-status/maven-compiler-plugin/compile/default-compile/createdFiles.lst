@@ -1,0 +1,6 @@
+com\wipro\model\CafeInfo.class
+com\wipro\service\CafeInfoService.class
+com\wipro\controller\CafeController.class
+com\wipro\repository\CafeInfoRepository.class
+com\wipro\service\impl\CafeInfoServiceImpl.class
+com\wipro\CafeInfoApplication.class

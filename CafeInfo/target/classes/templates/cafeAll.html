@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<style>
+span {background-color:white; }</style>
+</head>
+
+<body bgcolor="indianred">
+<h2>Cafe Info details</h2>
+<div th:object="${cafeInfo}">
+Cafe Id:<span th:text="${#object.cafeId}"></span>
+Cafe Name:<span th:text="${#object.cafeName}"></span>
+Cafe Description:<span th:text="${#object.cafeDesc}"></span>
+
+</div>
+</body>
+</html>
